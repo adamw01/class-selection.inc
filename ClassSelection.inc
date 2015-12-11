@@ -102,6 +102,7 @@ stock HideClassTextdraw(playerid)
 	PlayerTextDrawHide(playerid, TeamName[playerid]);
 	PlayerTextDrawHide(playerid, InfoHead[playerid]);
 	PlayerTextDrawHide(playerid, ClassInfo[playerid]);
+	return 1;
 }
 
 stock ShowClassTextdraw(playerid, teamcolor, teamname[], teaminfo[])
@@ -114,4 +115,5 @@ stock ShowClassTextdraw(playerid, teamcolor, teamname[], teaminfo[])
 	PlayerTextDrawShow(playerid, TeamName[playerid]);
 	PlayerTextDrawShow(playerid, InfoHead[playerid]);
 	PlayerTextDrawShow(playerid, ClassInfo[playerid]);
+	return 1;
 }
